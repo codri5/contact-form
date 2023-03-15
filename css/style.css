@@ -1,0 +1,55 @@
+body {
+    background-color: #BFACB5;
+}
+
+.container {
+    width: 55vh;
+    margin-top: 20vh;
+    padding: 2rem;    
+    border-radius: 10px;
+    background-color: #F9F4F5;
+}
+
+h4 {
+    text-align: center;
+    font-weight: bold;
+    padding-bottom: 0.5rem;
+}
+
+.form-control {
+    margin-top: 0.2rem;
+    margin-bottom: 0.5rem;
+    background-color: #F9F4F5;
+}
+
+.form-control:focus {
+    box-shadow: none;
+    border-color: black;
+}
+
+label {
+    font-weight: bold;
+    font-size: 12pt;
+}
+
+.btn {
+    margin-top: 0.5rem;
+    background-color: #444554;
+    border: none;    
+    border-radius: 12px;
+    text-align: center;
+    zoom: 1.1;
+}
+
+.btn:hover {
+    background-color: #7F7B82;
+}
+
+@media only screen and (max-width: 480px) {
+    .container {
+        margin-top: 25vh;
+        width: 50vh;
+        zoom: 0.8;
+    }
+}
+
