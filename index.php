@@ -11,7 +11,7 @@
 <body>
     <div class='container'>
         <h4>Contact Us</h4>
-        <form method='POST' action='form.php'>
+        <form method='POST' action='form-data.php'>
             <div class='form-group'>
                 <label for='name'>Name</label>
                 <input type='text' class='form-control' id='name' name='name' placeholder='Enter your name'>
