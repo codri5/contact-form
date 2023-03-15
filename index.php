@@ -11,7 +11,7 @@
 <body>
     <div class='container'>
         <h4>Contact Us</h4>
-        <form>
+        <form method='POST' action=''>
             <div class='form-group'>
                 <label for='name'>Name</label>
                 <input type='text' class='form-control' id='name' placeholder='Enter your name'>
