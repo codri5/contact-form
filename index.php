@@ -11,18 +11,18 @@
 <body>
     <div class='container'>
         <h4>Contact Us</h4>
-        <form method='POST' action=''>
+        <form method='POST' action='form.php'>
             <div class='form-group'>
                 <label for='name'>Name</label>
-                <input type='text' class='form-control' id='name' placeholder='Enter your name'>
+                <input type='text' class='form-control' id='name' name='name' placeholder='Enter your name'>
             </div>
             <div class='form-group'>
                 <label for='email'>Email address</label>
-                <input type='email' class='form-control' id='email' placeholder='name@example.com'>
+                <input type='email' class='form-control' id='email' name='email' placeholder='name@example.com'>
             </div>
             <div class='form-group'>
                 <label for='textarea'>Message</label>
-                <textarea class='form-control' id='textarea' rows='3' placeholder='Message'></textarea>
+                <textarea class='form-control' id='textarea' name='message' placeholder='Message'></textarea>
             </div>
             <button type='submit' class='btn btn-primary'>Send</button>
         </form>
