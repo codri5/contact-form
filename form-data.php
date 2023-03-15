@@ -1,4 +1,5 @@
-<?php include("config/database.php"); ?>
+<?php include("config/database.php"); 
+      echo '<link href="assets/css/style.css" rel="stylesheet">'; ?>
 
 <?php
 $name = $_POST["name"];
